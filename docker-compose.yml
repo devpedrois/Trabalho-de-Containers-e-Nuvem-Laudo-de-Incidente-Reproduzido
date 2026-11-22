@@ -1,0 +1,53 @@
+name: fccpd-cloudflare
+
+x-laboratorio: &laboratorio
+  image: fccpd-cloudflare:local
+  pull_policy: never
+  init: true
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+
+x-verificacao: &verificacao
+  interval: 500ms
+  timeout: 2s
+  retries: 20
+
+services:
+  publicador:
+    <<: *laboratorio
+    build: .
+    command: ["python", "-m", "laboratorio.publicador"]
+    networks: [controle]
+    healthcheck:
+      <<: *verificacao
+      test: ["CMD", "python", "-c", "from laboratorio.http_local import requisitar; raise SystemExit(requisitar('127.0.0.1', '/config')[0] != 200)"]
+
+  proxy:
+    <<: *laboratorio
+    command: ["python", "-m", "laboratorio.proxy"]
+    environment:
+      MODO: ${MODO:-sem-mitigacao}
+    depends_on:
+      publicador:
+        condition: service_healthy
+    networks: [controle, trafego]
+    healthcheck:
+      <<: *verificacao
+      test: ["CMD", "python", "-c", "from laboratorio.http_local import requisitar; raise SystemExit(requisitar('127.0.0.1', '/')[0] != 200)"]
+
+  sonda:
+    <<: *laboratorio
+    command: ["python", "-m", "laboratorio.sonda"]
+    environment:
+      MODO: ${MODO:-sem-mitigacao}
+    depends_on:
+      proxy:
+        condition: service_healthy
+    networks: [controle, trafego]
+
+networks:
+  controle:
+    internal: true
+  trafego:
+    internal: true
