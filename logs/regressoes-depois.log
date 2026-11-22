@@ -1,0 +1,19 @@
+test_log_completo_recalcula_percentual_pelas_amostras (test_laboratorio.LogTest.test_log_completo_recalcula_percentual_pelas_amostras) ... ok
+test_log_interrompido_nao_produz_taxa_de_erros (test_laboratorio.LogTest.test_log_interrompido_nao_produz_taxa_de_erros) ... ok
+test_distingue_melhora_temporaria_de_recuperacao (test_laboratorio.MetricasTest.test_distingue_melhora_temporaria_de_recuperacao) ... ok
+test_janela_encerrada_com_erro_nao_esta_recuperada (test_laboratorio.MetricasTest.test_janela_encerrada_com_erro_nao_esta_recuperada) ... ok
+test_rejeita_janela_vazia (test_laboratorio.MetricasTest.test_rejeita_janela_vazia) ... ok
+test_sem_erro_nao_inventa_marco_de_recuperacao (test_laboratorio.MetricasTest.test_sem_erro_nao_inventa_marco_de_recuperacao) ... ok
+test_aceita_arquivo_no_limite (test_laboratorio.ProxyTest.test_aceita_arquivo_no_limite) ... ok
+test_aguarda_primeira_configuracao (test_laboratorio.ProxyTest.test_aguarda_primeira_configuracao) ... ok
+test_mitigacao_retem_a_ultima_versao_valida (test_laboratorio.ProxyTest.test_mitigacao_retem_a_ultima_versao_valida) ... ok
+test_recusa_estrutura_invalida_sem_perder_estado (test_laboratorio.ProxyTest.test_recusa_estrutura_invalida_sem_perder_estado) ... ok
+test_revalida_conteudo_corrigido_com_a_mesma_versao (test_laboratorio.ProxyTest.test_revalida_conteudo_corrigido_com_a_mesma_versao) ... ok
+test_sem_mitigacao_falha_ate_receber_versao_valida (test_laboratorio.ProxyTest.test_sem_mitigacao_falha_ate_receber_versao_valida) ... ok
+test_artefato_duplicado_repete_as_entradas (test_laboratorio.PublicacaoTest.test_artefato_duplicado_repete_as_entradas) ... ok
+test_publicacao_desconhecida_preserva_a_versao_ativa (test_laboratorio.PublicacaoTest.test_publicacao_desconhecida_preserva_a_versao_ativa) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.259s
+
+OK

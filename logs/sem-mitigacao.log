@@ -1,0 +1,127 @@
+{"utc": "2026-11-22T00:40:31.038+00:00", "servico": "sonda", "evento": "inicio", "modo": "sem-mitigacao", "amostras": 110, "intervalo_ms": 100}
+{"utc": "2026-11-22T00:40:29.873+00:00", "servico": "proxy", "evento": "inicio", "modo": "sem-mitigacao"}
+{"utc": "2026-11-22T00:40:29.874+00:00", "servico": "proxy", "evento": "atualizacao", "candidata": "inicial", "features": 6, "limite": 10, "decisao": "aplicada", "ativa": "inicial"}
+{"utc": "2026-11-22T00:40:28.756+00:00", "servico": "publicador", "evento": "publicacao", "versao": "inicial", "features": 6}
+{"utc": "2026-11-22T00:40:33.062+00:00", "servico": "proxy", "evento": "atualizacao", "candidata": "duplicada", "features": 12, "limite": 10, "decisao": "limite_excedido", "ativa": "duplicada"}
+{"utc": "2026-11-22T00:40:33.039+00:00", "servico": "publicador", "evento": "publicacao", "versao": "duplicada", "features": 12}
+{"utc": "2026-11-22T00:40:35.039+00:00", "servico": "publicador", "evento": "publicacao", "versao": "intermediaria", "features": 6}
+{"utc": "2026-11-22T00:40:37.039+00:00", "servico": "publicador", "evento": "publicacao", "versao": "duplicada-final", "features": 12}
+{"utc": "2026-11-22T00:40:40.038+00:00", "servico": "publicador", "evento": "publicacao", "versao": "restaurada", "features": 6}
+{"utc": "2026-11-22T00:40:35.069+00:00", "servico": "proxy", "evento": "atualizacao", "candidata": "intermediaria", "features": 6, "limite": 10, "decisao": "aplicada", "ativa": "intermediaria"}
+{"utc": "2026-11-22T00:40:31.046+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 0, "t_ms": 9, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 1, "t_ms": 101, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 2, "t_ms": 202, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.339+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 3, "t_ms": 301, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.439+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 4, "t_ms": 401, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:37.073+00:00", "servico": "proxy", "evento": "atualizacao", "candidata": "duplicada-final", "features": 12, "limite": 10, "decisao": "limite_excedido", "ativa": "duplicada-final"}
+{"utc": "2026-11-22T00:40:31.539+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 5, "t_ms": 502, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:40.055+00:00", "servico": "proxy", "evento": "atualizacao", "candidata": "restaurada", "features": 6, "limite": 10, "decisao": "aplicada", "ativa": "restaurada"}
+{"utc": "2026-11-22T00:40:31.639+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 6, "t_ms": 601, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.739+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 7, "t_ms": 701, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.839+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 8, "t_ms": 801, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:31.939+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 9, "t_ms": 902, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.039+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 10, "t_ms": 1001, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 11, "t_ms": 1101, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 12, "t_ms": 1201, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.339+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 13, "t_ms": 1301, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.439+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 14, "t_ms": 1401, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.539+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 15, "t_ms": 1501, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.639+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 16, "t_ms": 1602, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.739+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 17, "t_ms": 1701, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.839+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 18, "t_ms": 1801, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:32.939+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 19, "t_ms": 1901, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:33.039+00:00", "servico": "sonda", "evento": "publicacao_confirmada", "amostra": 20, "t_ms": 2002, "versao": "duplicada", "features": 12}
+{"utc": "2026-11-22T00:40:33.040+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 20, "t_ms": 2003, "status": 200, "versao": "inicial"}
+{"utc": "2026-11-22T00:40:33.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 21, "t_ms": 2101, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 22, "t_ms": 2201, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.339+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 23, "t_ms": 2301, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.439+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 24, "t_ms": 2402, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.539+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 25, "t_ms": 2501, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.640+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 26, "t_ms": 2602, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.739+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 27, "t_ms": 2701, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.839+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 28, "t_ms": 2801, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:33.939+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 29, "t_ms": 2901, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.039+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 30, "t_ms": 3001, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 31, "t_ms": 3102, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 32, "t_ms": 3201, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.339+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 33, "t_ms": 3301, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.439+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 34, "t_ms": 3402, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.539+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 35, "t_ms": 3502, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.639+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 36, "t_ms": 3601, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.739+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 37, "t_ms": 3701, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.839+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 38, "t_ms": 3801, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:34.939+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 39, "t_ms": 3902, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:35.039+00:00", "servico": "sonda", "evento": "publicacao_confirmada", "amostra": 40, "t_ms": 4001, "versao": "intermediaria", "features": 6}
+{"utc": "2026-11-22T00:40:35.040+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 40, "t_ms": 4002, "status": 500, "versao": "duplicada"}
+{"utc": "2026-11-22T00:40:35.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 41, "t_ms": 4101, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 42, "t_ms": 4201, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.339+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 43, "t_ms": 4301, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.439+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 44, "t_ms": 4401, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.539+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 45, "t_ms": 4501, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.639+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 46, "t_ms": 4601, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.739+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 47, "t_ms": 4701, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.839+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 48, "t_ms": 4801, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:35.939+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 49, "t_ms": 4902, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.039+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 50, "t_ms": 5001, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 51, "t_ms": 5101, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 52, "t_ms": 5202, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.340+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 53, "t_ms": 5302, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.439+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 54, "t_ms": 5401, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.539+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 55, "t_ms": 5501, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.639+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 56, "t_ms": 5601, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.739+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 57, "t_ms": 5701, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.839+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 58, "t_ms": 5801, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:36.939+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 59, "t_ms": 5901, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:37.039+00:00", "servico": "sonda", "evento": "publicacao_confirmada", "amostra": 60, "t_ms": 6002, "versao": "duplicada-final", "features": 12}
+{"utc": "2026-11-22T00:40:37.040+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 60, "t_ms": 6003, "status": 200, "versao": "intermediaria"}
+{"utc": "2026-11-22T00:40:37.139+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 61, "t_ms": 6101, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.239+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 62, "t_ms": 6201, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.338+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 63, "t_ms": 6301, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.438+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 64, "t_ms": 6401, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.537+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 65, "t_ms": 6501, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.638+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 66, "t_ms": 6601, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.738+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 67, "t_ms": 6701, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.838+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 68, "t_ms": 6802, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:37.938+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 69, "t_ms": 6901, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.038+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 70, "t_ms": 7001, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.138+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 71, "t_ms": 7102, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.238+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 72, "t_ms": 7201, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.338+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 73, "t_ms": 7301, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.438+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 74, "t_ms": 7402, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.538+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 75, "t_ms": 7501, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.638+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 76, "t_ms": 7601, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.738+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 77, "t_ms": 7701, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.837+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 78, "t_ms": 7801, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:38.938+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 79, "t_ms": 7901, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.038+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 80, "t_ms": 8001, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.138+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 81, "t_ms": 8101, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.238+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 82, "t_ms": 8201, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.337+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 83, "t_ms": 8301, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.438+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 84, "t_ms": 8401, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.538+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 85, "t_ms": 8502, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.638+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 86, "t_ms": 8602, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.738+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 87, "t_ms": 8701, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.838+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 88, "t_ms": 8801, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:39.938+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 89, "t_ms": 8901, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:40.038+00:00", "servico": "sonda", "evento": "publicacao_confirmada", "amostra": 90, "t_ms": 9002, "versao": "restaurada", "features": 6}
+{"utc": "2026-11-22T00:40:40.039+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 90, "t_ms": 9002, "status": 500, "versao": "duplicada-final"}
+{"utc": "2026-11-22T00:40:40.137+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 91, "t_ms": 9101, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.238+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 92, "t_ms": 9201, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.338+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 93, "t_ms": 9302, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.438+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 94, "t_ms": 9401, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.538+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 95, "t_ms": 9502, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.638+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 96, "t_ms": 9601, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.738+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 97, "t_ms": 9701, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.838+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 98, "t_ms": 9801, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:40.938+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 99, "t_ms": 9901, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.037+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 100, "t_ms": 10001, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.138+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 101, "t_ms": 10101, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.237+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 102, "t_ms": 10201, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.338+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 103, "t_ms": 10301, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.438+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 104, "t_ms": 10401, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.538+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 105, "t_ms": 10501, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.638+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 106, "t_ms": 10602, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.738+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 107, "t_ms": 10702, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.838+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 108, "t_ms": 10802, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.938+00:00", "servico": "sonda", "evento": "sondagem", "amostra": 109, "t_ms": 10901, "status": 200, "versao": "restaurada"}
+{"utc": "2026-11-22T00:40:41.938+00:00", "servico": "sonda", "evento": "resumo", "requisicoes": 110, "erros": 50, "percentual_erros": 45.45, "primeiro_erro_ms": 2101, "primeiro_retorno_ms": 4101, "recuperacao_estavel_ms": 9101, "intervalo_ate_recuperacao_ms": 7000, "amostras_finais_ok": 19}
