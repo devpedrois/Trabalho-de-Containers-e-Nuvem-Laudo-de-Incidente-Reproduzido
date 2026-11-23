@@ -4,6 +4,15 @@ Laboratório independente em Python e Docker Compose. Reproduz o efeito de um ar
 
 [Laudo em PDF](output/pdf/Laudo-FCCPD-Cloudflare.pdf) · [Registro de uso de IA](IA.md)
 
+## Parte D · Parecer
+
+A página 4 do laudo reúne dois pareceres.
+
+- O primeiro analisa o **código desenvolvido neste trabalho**. O laboratório FCCPD reproduz a falha no proxy. Os logs registram as medições antes e depois da mitigação. [Análise do laboratório](analises/parte-d/laboratorio/README.md)
+- O segundo analisa o **código do Projeto Integrador**. O parecer aponta um risco na inicialização do Origem. [Análise do Projeto Integrador](analises/parte-d/projeto-integrador/README.md)
+
+Os comandos abaixo executam apenas o laboratório em Docker Compose.
+
 ## Reproduzir
 
 Use o Docker com o plugin Compose e containers Linux. Execute os comandos a partir da raiz deste repositório. A imagem usa a biblioteca padrão do Python. Os três serviços se comunicam em redes internas.

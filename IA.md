@@ -8,7 +8,7 @@ Pedido inicial:
 
 > Temosuma atividade de FCCPD sobre Containers e Nuvem. Preciso de um laboratório independente do projeto de origem.
 
-Mantivemos o laboratório independente, como solicitado. Adotamos Python pela simplicidade da biblioteca padrão. A Parte D avalia o próprio laboratório.
+Mantivemos o laboratório independente, como solicitado. Adotamos Python pela simplicidade da biblioteca padrão. A Parte D analisa o laboratório e o Projeto Integrador.
 
 ### 2. Escolher o incidente e reproduzir a falha
 
